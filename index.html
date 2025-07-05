@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK DO CSS E DO JS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="/scripts/main.js" defer></script>
+
+    <title>ToDo - List</title>
+</head>
+<body>
+    <div class="card" id="original" style="display: none;">
+        <div class="main-container">
+            <input type="checkbox" name="checked" class="checked" value="false">
+            <p class="msg"></p>
+        </div>
+        <div>
+            <button type="button" class="btn-delete btn-class">Deletar</button>
+            <button type="button" class="btn-edit btn-class">Edit</button>
+        </div>
+        
+    </div>
+
+    <div id="container-input">
+        <button type="submit" id="btn-submit">+</button>
+        <input type="text" id="texto-input" placeholder="Digite...">
+    </div>
+    <div id="container-list">
+        
+    </div>
+</body>
+</html>
